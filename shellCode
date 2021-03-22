@@ -1,0 +1,4 @@
+import time
+start_time = time.time()
+nuke.execute('Write1', 1, 1)
+print "Render took {}s".format(time.time()-start_time)
